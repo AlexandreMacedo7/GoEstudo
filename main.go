@@ -20,4 +20,10 @@ func main() {
 
 	fmt.Printf("x: %v, %T\n\n", x, x)
 
+	mensagem := `"Mensagem sem formatação!"`                 //String não interpretada - com acento grave
+	mensagemComInterpretacao := "Com formatação \"oi\" jogo" //interpretada
+
+	fmt.Println(mensagem)
+	fmt.Println(mensagemComInterpretacao)
+
 }
