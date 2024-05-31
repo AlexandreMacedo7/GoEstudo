@@ -4,16 +4,16 @@ import (
 	"fmt"
 )
 
-//Exercicio 3
+//Exercicio 4
 
-var x int = 42
-var y string = "James Bond"
-var z bool = true
+type tipo int
+
+var x tipo
 
 func main() {
 
-	s := fmt.Sprintf("%v \t%v \t %v", x, y, z)
-
-	fmt.Println(s)
+	fmt.Printf("%v, %T\n", x, x)
+	x = 40
+	fmt.Printf("%v, %T", x, x)
 
 }
