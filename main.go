@@ -4,13 +4,16 @@ import (
 	"fmt"
 )
 
-//Exercicio 2
+//Exercicio 3
 
-var x int
-var y int
-var z bool
+var x int = 42
+var y string = "James Bond"
+var z bool = true
 
 func main() {
-	fmt.Printf("%T %T %T \n", x, y, z)
-	fmt.Printf("%v %v %v \n", x, y, z)
+
+	s := fmt.Sprintf("%v \t%v \t %v", x, y, z)
+
+	fmt.Println(s)
+
 }
