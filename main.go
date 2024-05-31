@@ -2,28 +2,21 @@ package main
 
 import "fmt" //biblioteca padrão para E/S Formatada
 
-var variavel = "Variavel a nivel de pacote" // nivel de pacote
-
 func main() {
 
-	//Declaração de variavel - nivel de escopo
-	x := 10
-	y := "Olá bom dia"
+	x := "Oi "
+	y := "de novo"
 
-	fmt.Printf("varivael: %v, %T\n", variavel, variavel)
+	//tipos de print
 
-	fmt.Printf("x: %v, %T\n", x, x)
-	fmt.Printf("y: %v, %T\n\n", y, y)
+	//print normal - função retornar algo na tela
+	fmt.Println("Olá")
 
-	x = 20 //oporador de atribuição
-	//x, z := 10, 5 //operador de declaração precisa ter pelo menos uma variavel nova
+	//printS - retorna uma String para função
+	z := fmt.Sprint(x, y)
 
-	fmt.Printf("x: %v, %T\n\n", x, x)
+	fmt.Println(z)
 
-	mensagem := `"Mensagem sem formatação!"`                 //String não interpretada - com acento grave
-	mensagemComInterpretacao := "Com formatação \"oi\" jogo" //interpretada
-
-	fmt.Println(mensagem)
-	fmt.Println(mensagemComInterpretacao)
+	//Fprint writer interface
 
 }
