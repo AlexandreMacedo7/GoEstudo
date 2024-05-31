@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
+const x = 10 // constantes só são defininidas com uso e pode ser declaradas varias com ()
+
 func main() {
 
-	a := 100
-
-	fmt.Printf("%d - %b - %#x", a, a, a)
+	fmt.Printf("%d - %b - %#x", x, x, x)
 
 }
