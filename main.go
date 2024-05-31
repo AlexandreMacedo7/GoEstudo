@@ -12,4 +12,5 @@ var z bool
 
 func main() {
 	fmt.Printf("%T %T %T \n", x, y, z)
+	fmt.Printf("%v %v %v \n", x, y, z)
 }
