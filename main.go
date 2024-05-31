@@ -4,16 +4,17 @@ import (
 	"fmt"
 )
 
-// Conversão
-type hotdog int
-
-var b hotdog = 101
+//Exercicio 1
 
 func main() {
-	x := 10
-	x = int(b)
 
-	fmt.Printf("%T\n", x)
+	x := 42
+	y := "James Bond"
+	z := true
 
-	fmt.Printf("%T\n", b)
+	fmt.Printf("%v %v %v \n", x, y, z)
+
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
 }
