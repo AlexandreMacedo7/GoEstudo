@@ -4,14 +4,13 @@ import (
 	"fmt"
 )
 
-const (
-	a = iota // não tem um valor definitio, até ser utilizado, parecido como uma constante em numeros em sequencia
-	b = iota
-	c = iota
-)
-
+// Nivel 2
+// Exercicio 1
 func main() {
+	a := 10
+	b := 20
+	c := 30
 
-	fmt.Print(a, b, c)
+	fmt.Printf("%d , %b, %#x", a, b, c)
 
 }
