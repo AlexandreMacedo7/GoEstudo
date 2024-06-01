@@ -2,17 +2,14 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 // Nivel 3
-// Exercicio 2
+// Exercicio 3
 
 func main() {
-	for i := 65; i <= 90; i++ {
+	for i := 1996; i <= time.Now().UTC().Year(); i++ {
 		fmt.Println(i)
-		for j := 1; j <= 3; j++ {
-			fmt.Printf("\t %#U \n", i)
-		}
 	}
-
 }
