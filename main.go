@@ -5,14 +5,16 @@ import (
 )
 
 // Nivel 2
-// Exercicio 4
+// Exercicio 5
 
 func main() {
 
-	a := 200
-	fmt.Printf("%d, %b, %#x\n", a, a, a)
+	a := `Isto
+	é 
+	uma coisa
+		muito
+		Doida`
 
-	b := a << 1
-	fmt.Printf("%d, %b, %#x", b, b, b)
+	fmt.Print(a)
 
 }
