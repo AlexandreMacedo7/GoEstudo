@@ -5,16 +5,20 @@ import (
 )
 
 // Nivel 2
-// Exercicio 5
+// Exercicio 6
+
+const (
+	_ = 2024 + iota
+	b
+	c
+	d
+	e
+)
 
 func main() {
-
-	a := `Isto
-	é 
-	uma coisa
-		muito
-		Doida`
-
-	fmt.Print(a)
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
+	fmt.Println(e)
 
 }
