@@ -5,13 +5,14 @@ import (
 )
 
 // Nivel 2
-// Exercicio 3
-
-const a int = 10
-const b = 10
+// Exercicio 4
 
 func main() {
 
-	fmt.Printf("%v , %v", a, b)
+	a := 200
+	fmt.Printf("%d, %b, %#x\n", a, a, a)
+
+	b := a << 1
+	fmt.Printf("%d, %b, %#x", b, b, b)
 
 }
