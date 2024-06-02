@@ -5,17 +5,17 @@ import (
 )
 
 // Nivel 3
-// Exercicio 8
+// Exercicio 9
 
 func main() {
-	a := 60
-	switch {
-	case a == 60:
-		fmt.Print("Igual a 60")
-	case a == 50:
-		fmt.Print("Não é igual a 60")
-	case a == 40:
-		fmt.Print("Não é igual a 60")
+	esporteFavorito := "xadrez"
+	switch esporteFavorito {
+	case "futebol":
+		fmt.Print("futebol")
+	case "tênis":
+		fmt.Print("tênis")
+	case "xadrez":
+		fmt.Print("xadrez")
 	}
 
 }
