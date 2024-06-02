@@ -6,10 +6,18 @@ import (
 )
 
 // Nivel 3
-// Exercicio 3
+// Exercicio 4
 
 func main() {
-	for i := 1996; i <= time.Now().UTC().Year(); i++ {
-		fmt.Println(i)
+
+	anoemquenasci := 1996
+	anoatual := time.Now().UTC().Year()
+
+	for {
+		if anoemquenasci == anoatual {
+			break
+		}
+		fmt.Println(anoemquenasci)
+		anoemquenasci++
 	}
 }
