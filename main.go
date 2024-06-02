@@ -5,17 +5,14 @@ import (
 )
 
 // Nivel 3
-// Exercicio 9
+// Exercicio 10
 
 func main() {
-	esporteFavorito := "xadrez"
-	switch esporteFavorito {
-	case "futebol":
-		fmt.Print("futebol")
-	case "tênis":
-		fmt.Print("tênis")
-	case "xadrez":
-		fmt.Print("xadrez")
-	}
+
+	fmt.Println(true && true)
+	fmt.Println(true && false)
+	fmt.Println(true || true)
+	fmt.Println(true || false)
+	fmt.Println(!true)
 
 }
