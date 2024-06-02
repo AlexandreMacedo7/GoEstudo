@@ -2,22 +2,19 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 // Nivel 3
-// Exercicio 4
+// Exercicio 7
 
 func main() {
-
-	anoemquenasci := 1996
-	anoatual := time.Now().UTC().Year()
-
-	for {
-		if anoemquenasci == anoatual {
-			break
-		}
-		fmt.Println(anoemquenasci)
-		anoemquenasci++
+	a := 60
+	if a == 60 {
+		fmt.Print(true)
+	} else if a == 10 {
+		fmt.Print(false)
+	} else {
+		fmt.Print("Erro")
 	}
+
 }
