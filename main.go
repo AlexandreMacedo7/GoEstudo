@@ -4,15 +4,15 @@ import (
 	"fmt"
 )
 
-// Nivel 3
-// Exercicio 10
+var x [5]int
+var y [5]int
 
 func main() {
 
-	fmt.Println(true && true)
-	fmt.Println(true && false)
-	fmt.Println(true || true)
-	fmt.Println(true || false)
-	fmt.Println(!true)
+	x[0] = 1
+	y[2] = 1
+
+	fmt.Println(x)
+	fmt.Println(y)
 
 }
